@@ -1,0 +1,8 @@
+server:
+  ssl:
+    key-store: classpath:rabbitkeystore.jks
+    key-store-password: rabbit
+    key-password: rabbit
+  port: 8080
+  http2:
+    enabled: true
